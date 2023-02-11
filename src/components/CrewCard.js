@@ -1,4 +1,4 @@
-function DirectorCard({name, movieListings}){
+function CrewCard({name, movieListings}){
     return (
         <div>
             <h2>Name: {name}</h2>
@@ -11,4 +11,4 @@ function DirectorCard({name, movieListings}){
     );
 }
 
-export default DirectorCard;
+export default CrewCard;

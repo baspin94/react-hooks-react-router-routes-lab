@@ -1,7 +1,7 @@
 import React from "react";
 import { directors } from "../data";
-import DirectorCard from "./DirectorCard";
-import { v4 as uuid } from "uuid";;
+import CrewCard from "./CrewCard";
+import { v4 as uuid } from "uuid";
 
 
 function Directors() {
@@ -13,7 +13,7 @@ function Directors() {
       const movieId= uuid();
       return <li key={movieId}>{movie}</li>
     })
-    return <DirectorCard key={id} name={director.name} movieListings={movieListings}/>
+    return <CrewCard key={id} name={director.name} movieListings={movieListings}/>
   })
   return (
     <div>
